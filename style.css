@@ -1,0 +1,32 @@
+.main-body{
+    background-color: black;
+}
+.calc{
+    width: 400px;
+    height: 700px;
+    background-color:gray;
+    margin-left: 700px;
+}
+#screen{
+    width: 80%;
+    margin-left: 36px;
+    height: 40px;
+    margin-top: 30px;
+    pointer-events: none;
+}
+.row{
+
+}
+.btn{
+    width: 80px;
+    height: 60px;
+    margin-left: 12px;
+    margin-top: 61px;
+}
+#btn{
+    width: 80px;
+    height: 60px;
+    margin-left: 12px;
+    margin-top: 61px;
+}
+
