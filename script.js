@@ -9,7 +9,17 @@ function clearDisplayByOne(val){
     document.getElementById("screen").value-=val
 }
 function equalClick(){
-    var text=document.getElementById("screen").value
-    var result=eval(text)
-    document.getElementById('screen').value=result
+    var second_num=document.getElementById("screen").value
+    document.getElementById("screen").value=""
+    if (math=="Division"){
+        document.getElementById("screen").value+=f_num/second_num
+    }
+}
+function buttonDiv(){
+    var first_num=document.getElementById("screen")
+    var myGlobalVar= "math"
+    var myGlobalVar= "f_num"
+    math="Division"
+    f_num= first_num
+    document.getElementById("screen").value=""
 }
